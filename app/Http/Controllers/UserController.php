@@ -7,6 +7,7 @@ use App\Models\User;
 use Hash;
 use App\Models\Verification;
 use Carbon\Carbon;
+use App\Models\BOT;
 
 class UserController extends Controller
 {
@@ -49,6 +50,9 @@ class UserController extends Controller
 
                 return redirect()->route('login');
             }
+            if (auth()->user()->role === 'admin') {
+                return redirect()->route('admin');
+            }
             return redirect()->route('dashboard');
         }
 
@@ -72,6 +76,20 @@ class UserController extends Controller
     	$name = $user->f_name.' '.$user->l_name;
 
     	return view('dash.profile',compact('name', 'user'));
+    }
+
+    public function BOT()
+    {
+        $bots = BOT::all();
+        $title = 'Havilla | Board of Trustees';
+        return view('bot', compact('title','bots'));
+    }
+
+    public function botProfile($id)
+    {
+        $bot = BOT::find($id);
+        $title = 'BOT | '.$bot->name;
+        return view('bot-profile',compact('title','bot'));
     }
 
     public function logout()

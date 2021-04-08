@@ -11,6 +11,7 @@ html {
 body {
 	margin: 0;
 	font-size: 18px !important;
+	letter-spacing: 1px !important;
 }
 
 .carousel-title{
@@ -19,6 +20,18 @@ body {
 
 .slider-txt{
 	font-size: 18px;
+}
+
+.vid-area{
+	display: flex;
+	/*height: 800px;*/
+	padding: 86px;
+}
+
+.logo-bg{
+	background-color: #080b14;
+	width: 800px;
+	height: 450px;
 }
 
 tr td.bordered, tr th.bordered{
@@ -33,8 +46,8 @@ tr td.bordered-r{
 	font-size: 80px !important;
 }
 
-.welcome-vid{
-	border-radius: 10px;
+.welcome-video{
+	height: 450px;
 }
 
 .fee-semester{
@@ -42411,6 +42424,15 @@ html:not(.lt-ie10) .not-animated {
 	video{
 		width: 400px!important;
 		height: 300px !important;
+	}
+
+	.vid-area{
+		flex-direction: column;
+		padding: 10px;
+	}
+
+	.logo-bg{
+		display: none;
 	}
 
 	h6.post-vacation-title{

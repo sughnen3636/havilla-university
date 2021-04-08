@@ -241,7 +241,7 @@
                 <div class="offset-top-50"><a class="btn btn-primary" href="#">View All News Posts</a></div>
             </div>
         </section> --}}
-        <section class="section novi-background bg-cover section-70 section-md-114 bg-default">
+        <section class="section novi-background bg-cover section-70 section-md-114 bg-default" style="padding-bottom: 0 !important;">
             <div class="shell">
                 <div class="range range-50">
                     <div class="cell-sm-4 cell-sm-push-2 text-sm-left">
@@ -256,18 +256,28 @@
                         <h2 class="text-bold">About the University</h2>
                         <hr class="divider bg-madison hr-sm-left-0">
                         <div class="offset-top-30 offset-sm-top-30">
-                            <p>The desire to establish Havilla University is an attestation to the Proprietor's zeal to affect humanity in the best of ways. His service to humanity is evidenced by the stream of educational institutions already established at Abuja and Akparabong, Ikom. The core values of 'Learning, Integrity and Excellence, have gained profound relevance in the philosophy of the Proprietor, Steadyflow International Limited, as it lays solid foundation for the establishment of a University of international standard. The Proprietor is glad to share the dream to establish Havilla University, which had been conceived to impact the lives of the teeming youths of our country. This has fueled our commitment to contribute our quota to the transformation of our society and the development of our nation, Nigeria.</p>
+                            <p>The desire to establish Havilla University is an attestation to the Proprietor's zeal to affect humanity in the best of ways. His service to humanity is evidenced by the stream of educational institutions already established at Abuja and Akparabong, Ikom. The core values of 'Learning, Integrity and Excellence, have gained profound relevance in the philosophy of the Proprietor, Steadyflow International Limited, as it lays solid foundation for the establishment of a University of international standard. The Proprietor is glad to share the dream to establish Havilla University, which had been conceived to impact the lives of the teeming youths of our country. This has fueled our commitment to contribute our quota to the transformation of our society and the development of our nation, Nigeria.<br>
+                            It is our sincere wish to be forerunners in the training of youths that shall be transformed into future leaders and generations of nation builders. This supports the educational focus of the Federal Government of expanding access and improving quality in the Nigerian University System (NUS). The University shall bring a dynamic system of teaching, learning and research in a conducive and encouraging environment, which shall be facilitated by state-of-the-art equipment, facilities and structures to aid in the molding world-class graduates.</p>
                         </div>
-                        <p>It is our sincere wish to be forerunners in the training of youths that shall be transformed into future leaders and generations of nation builders. This supports the educational focus of the Federal Government of expanding access and improving quality in the Nigerian University System (NUS). The University shall bring a dynamic system of teaching, learning and research in a conducive and encouraging environment, which shall be facilitated by state-of-the-art equipment, facilities and structures to aid in the molding world-class graduates.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section novi-background bg-cover section-70 section-md-114 bg-default">
+        <div class="vid-area">
+            <div class="video-left">
+                <video controls class="welcome-video">
+                  <source src="{{ asset('assets/vids/welcome2.mp4') }}" type="video/mp4">
+                </video>
+            </div>
+            <div class="logo-bg">
+                <img src="{{ asset('assets/images/Havilla/h_logo.jpeg')}}" width="400" height="400">
+            </div>
+        </div>
+        {{-- <section class="section novi-background bg-cover section-70 section-md-114 bg-default">
             <video width="1200" height="660" controls class="welcome-vid">
               <source src="{{ asset('assets/vids/welcome2.mp4') }}" type="video/mp4">
             </video>
-        </section>
+        </section> --}}
 
         <section class="section context-dark section-image-aside section-image-aside-left">
             <div class="novi-background bg-cover section-70 section-md-114 bg-madison">
@@ -545,18 +555,18 @@
                     <div class="col-xs-12 col-sm-6 col-md-4 isotope-item">
                         <article class="post-news"><a href="#"><img class="img-responsive" src="{{ asset('assets/images/Dept/Entrepreneurship.jpg')}}" alt="" width="370" height="240"></a>
                             <div class="post-news-body">
-                                <h6><a href="#">The PIC Chairman, Prof. Florence Obi receives Havilla University license from NUC on 8th April, 2021!</a></h6>
+                                <h6><a href="#">The PIC Chairman, Prof. Florence Obi receives Havilla University license from NUC on 8th April, 2021</a></h6>
                                 <div class="offset-top-20">
-                                    <p>Summer preparatory programs offered through schools allow students to get a head start on making connections and building skills.</p>
+                                    <p>Summer preparatory programs offered through schools allow students to..</p>
                                 </div>
                                 <div class="post-news-meta offset-top-20"><span class="icon novi-icon icon-xs mdi mdi-calendar-clock text-middle text-madison"></span><span class="text-middle inset-left-10 text-italic text-black">4 days ago</span></div>
                             </div>
                         </article>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 isotope-item">
-                        <article class="post-news"><a href="#"><img class="img-responsive" src="{{ asset('assets/images/Dept/Accounting.jpg')}}" alt="" width="370" height="240"></a>
+                        <article class="post-news"><a href="#"><img class="" src="{{ asset('assets/images/unical.jpg') }}" alt="" width="370" height="240"></a>
                             <div class="post-news-body">
-                                <h6><a href="#">Havilla University partners with Hotel 45, to provide hotel accomodations for school visitors at subsidized rates.</a></h6>
+                                <h6><a href="#">The National Universities Commission has appointed University of Calabar as a mentoring University...</a></h6>
                                 <div class="offset-top-20">
                                     <p>International students increasingly want to come to the United States for college or graduate school.</p>
                                 </div>

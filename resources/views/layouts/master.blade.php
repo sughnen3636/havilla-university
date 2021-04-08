@@ -11,6 +11,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="icon" href="{{ asset('assets/images/Havilla/favicon.png') }}" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,700%7CMerriweather:400,300,300italic,400italic,700,700italic">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/novi.css')}}">
     <link href="{{ asset('assets/font-awesome-5/css/all.min.css')}}" rel="stylesheet">
@@ -55,7 +56,7 @@
                             <div class="rd-navbar-nav-wrap">
                                 <div class="rd-navbar-mobile-scroll">
                                     <div class="rd-navbar-mobile-header-wrap">
-                                        <div class="rd-navbar-mobile-brand"><a href="/"><img src="{{ asset('assets/images/Havilla/h_logo.png')}}" alt="" srcset="{{ asset('assets/images/logo-default-2-144x122-1.png 2x')}}"></a></div>
+                                        <div class="rd-navbar-mobile-brand"><a href="/"><img src="{{ asset('assets/images/Havilla/h_logo.jpeg')}}" alt="" srcset="{{ asset('assets/images/logo-default-2-144x122-1.png 2x')}}"></a></div>
                                     </div>
                                     <ul class="rd-navbar-nav">
                                         <li><a href="/">Home</a></li>
@@ -79,11 +80,12 @@
                                                 <li><a href="{{ route('about', 'our-philosophy') }}">Our Philosophy</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="{{ route('courses') }}">Faculties</a>
-                                            <!-- <ul class="rd-navbar-dropdown">
-                                                <li><a href="course-grid.html">Course Page</a></li>
-                                                <li><a href="course-details.html">Course Details Page</a></li>
-                                            </ul> -->
+                                        <li><a href="#">Faculty</a>
+                                            <ul class="rd-navbar-dropdown">
+                                                <li><a href="{{ route('courses') }}">Faculties</a></li>
+                                                <li><a href="{{ route('dap') }}">Director of Academic Planning</a></li>
+                                                <li><a href="{{ route('bot') }}">Board of Trustees</a></li>
+                                            </ul>
                                         </li>
                                         {{-- <li><a href="events.html">Events</a>
                                             <ul class="rd-navbar-dropdown">
@@ -170,7 +172,7 @@
                                         <li>
                                             <div class="unit unit-horizontal unit-middle unit-spacing-xs">
                                                 <div class="unit-left"><span class="icon novi-icon mdi mdi-email-open text-middle icon-xs text-madison"></span></div>
-                                                <div class="unit-body"><a href="mailto:#">info@havilla.edu</a></div>
+                                                <div class="unit-body"><a href="mailto:#">info@havillauniversity.edu.ng</a></div>
                                             </div>
                                         </li>
                                     </ul>
