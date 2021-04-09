@@ -81,7 +81,7 @@
                                             </ul>
                                         </li>
                                         <li><a href="#">Faculty</a>
-                                            <ul class="rd-navbar-dropdown">
+                                            <ul class="rd-navbar-dropdown" style="width: 350px;">
                                                 <li><a href="{{ route('courses') }}">Faculties</a></li>
                                                 <li><a href="{{ route('dap') }}">Director of Academic Planning</a></li>
                                                 <li><a href="{{ route('bot') }}">Board of Trustees</a></li>
@@ -172,7 +172,7 @@
                                         <li>
                                             <div class="unit unit-horizontal unit-middle unit-spacing-xs">
                                                 <div class="unit-left"><span class="icon novi-icon mdi mdi-email-open text-middle icon-xs text-madison"></span></div>
-                                                <div class="unit-body"><a href="mailto:#">info@havillauniversity.edu.ng</a></div>
+                                                <div class="unit-body"><a href="mailto:#">info@havilla.edu.ng</a></div>
                                             </div>
                                         </li>
                                     </ul>

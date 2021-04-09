@@ -18,6 +18,24 @@ body {
 	font-size: 15px;
 }
 
+h6.post-vacation-title a{
+	font-size: 20px !important;
+	font-weight: bold;
+}
+
+div time{
+	font-size: 15px;
+}
+
+ul.rd-navbar-nav li a{
+	font-size: 18px !important;
+	letter-spacing: 1px;
+}
+
+div#bot-name:hover{
+	cursor: pointer !important;
+}
+
 .slider-txt{
 	font-size: 18px;
 }

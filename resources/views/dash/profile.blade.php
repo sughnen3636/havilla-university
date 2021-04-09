@@ -527,7 +527,7 @@
                               </li>
                               <li>Visa Information</li>
                               <li>Two(2) Attestation Letters</li>
-                              <li>WAEC Certificate (West Africans Only)</li>
+                              <li>WAEC Certificate (West Africans Only) or equivalent secondary school certificate</li>
                             </ul>
                           </div>
                         </div>

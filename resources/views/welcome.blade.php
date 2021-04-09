@@ -253,7 +253,7 @@
                         </div>
                     </div>
                     <div class="cell-sm-8 cell-sm-push-1 text-sm-left">
-                        <h2 class="text-bold">About the University</h2>
+                        <h2 class="text-bold">About Havilla University</h2>
                         <hr class="divider bg-madison hr-sm-left-0">
                         <div class="offset-top-30 offset-sm-top-30">
                             <p>The desire to establish Havilla University is an attestation to the Proprietor's zeal to affect humanity in the best of ways. His service to humanity is evidenced by the stream of educational institutions already established at Abuja and Akparabong, Ikom. The core values of 'Learning, Integrity and Excellence, have gained profound relevance in the philosophy of the Proprietor, Steadyflow International Limited, as it lays solid foundation for the establishment of a University of international standard. The Proprietor is glad to share the dream to establish Havilla University, which had been conceived to impact the lives of the teeming youths of our country. This has fueled our commitment to contribute our quota to the transformation of our society and the development of our nation, Nigeria.<br>
@@ -294,7 +294,9 @@
                                         <!-- <a class="post-vacation-img-wrap bg-cover bg-image" href="course-details.html" style="background-image: url(images/course-01-150x120.jpg)"></a> -->
                                         <div class="post-vacation-body">
                                             <div>
-                                                <h6 class="post-vacation-title"><a href="{{ route('courses') }}">Cyber Security</a></h6>
+                                                <h6 class="post-vacation-title">
+                                                    <a href="{{ route('dept', 'computer-science') }}">Cyber Security</a>
+                                                </h6>
                                             </div>
                                             <!-- <div class="offset-lg-top-10">
                                                 <p>Charles Banks</p>
@@ -312,7 +314,9 @@
                                         <!-- <a class="post-vacation-img-wrap bg-cover bg-image" href="course-details.html" style="background-image: url(images/course-02-150x120.jpg)"></a> -->
                                         <div class="post-vacation-body">
                                             <div>
-                                                <h6 class="post-vacation-title"><a href="{{ route('courses') }}">Biotechnology</a></h6>
+                                                <h6 class="post-vacation-title">
+                                                    <a href="{{ route('dept', 'biological-science') }}">Biotechnology</a>
+                                                </h6>
                                             </div>
                                            <!--  <div class="offset-lg-top-10">
                                                 <p>Maria Howard</p>
@@ -330,7 +334,9 @@
                                         <!-- <a class="post-vacation-img-wrap bg-cover bg-image" href="course-details.html" style="background-image: url(images/course-03-150x120.jpg)"></a> -->
                                         <div class="post-vacation-body">
                                             <div>
-                                                <h6 class="post-vacation-title"><a href="{{ route('courses') }}">Physics with Electronics</a></h6>
+                                                <h6 class="post-vacation-title">
+                                                    <a href="{{ route('dept', 'physics') }}">Physics with Electronics</a>
+                                                </h6>
                                             </div>
                                             <!-- <div class="offset-lg-top-10">
                                                 <p>Steven Carter</p>
@@ -545,37 +551,46 @@
                         <article class="post-news"><a href="#"><img class="img-responsive" src="{{ asset('assets/images/Dept/HR.jpg')}}" alt="" width="370" height="240"></a>
                             <div class="post-news-body">
                                 <h6><a href="#">Havilla University partners with University of Calabar to develop strategic plans for approved courses.</a></h6>
-                                <div class="offset-top-20">
+                                {{-- <div class="offset-top-20">
                                     <p>Securing scholarships can be stressful, but parents and counselors can serve as a resource.</p>
+                                </div> --}}
+                                <div class="post-news-meta offset-top-20">
+                                    {{-- <span class="icon novi-icon icon-xs mdi mdi-calendar-clock text-middle text-madison"></span>
+                                    <span class="text-middle inset-left-10 text-italic text-black">2 days ago</span> --}}
                                 </div>
-                                <div class="post-news-meta offset-top-20"><span class="icon novi-icon icon-xs mdi mdi-calendar-clock text-middle text-madison"></span><span class="text-middle inset-left-10 text-italic text-black">3 days ago</span></div>
                             </div>
                         </article>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 isotope-item">
-                        <article class="post-news"><a href="#"><img class="img-responsive" src="{{ asset('assets/images/Dept/Entrepreneurship.jpg')}}" alt="" width="370" height="240"></a>
+                        <article class="post-news"><a href="#"><img class="img-responsive" src="{{ asset('assets/images/nuc.jpg')}}" alt="" width="370" height="240"></a>
                             <div class="post-news-body">
-                                <h6><a href="#">The PIC Chairman, Prof. Florence Obi receives Havilla University license from NUC on 8th April, 2021</a></h6>
-                                <div class="offset-top-20">
+                                <h6><a href="#">Hon. Jones Tangban receives the license for Havilla University from NUC on April  8th 2021, at Abuja</a></h6>
+                                {{-- <div class="offset-top-20">
                                     <p>Summer preparatory programs offered through schools allow students to..</p>
+                                </div> --}}
+                                <div class="post-news-meta offset-top-20">
+                                    {{-- <span class="icon novi-icon icon-xs mdi mdi-calendar-clock text-middle text-madison"></span>
+                                    <span class="text-middle inset-left-10 text-italic text-black">2 days ago</span> --}}
                                 </div>
-                                <div class="post-news-meta offset-top-20"><span class="icon novi-icon icon-xs mdi mdi-calendar-clock text-middle text-madison"></span><span class="text-middle inset-left-10 text-italic text-black">4 days ago</span></div>
                             </div>
                         </article>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 isotope-item">
                         <article class="post-news"><a href="#"><img class="" src="{{ asset('assets/images/unical.jpg') }}" alt="" width="370" height="240"></a>
                             <div class="post-news-body">
-                                <h6><a href="#">The National Universities Commission has appointed University of Calabar as a mentoring University...</a></h6>
-                                <div class="offset-top-20">
+                                <h6><a href="#">The National Universities Commission has appointed University of Calabar as a mentoring University for Havilla University</a></h6>
+                                {{-- <div class="offset-top-20">
                                     <p>International students increasingly want to come to the United States for college or graduate school.</p>
+                                </div> --}}
+                                <div class="post-news-meta offset-top-20">
+                                    {{-- <span class="icon novi-icon icon-xs mdi mdi-calendar-clock text-middle text-madison"></span>
+                                    <span class="text-middle inset-left-10 text-italic text-black">2 days ago</span> --}}
                                 </div>
-                                <div class="post-news-meta offset-top-20"><span class="icon novi-icon icon-xs mdi mdi-calendar-clock text-middle text-madison"></span><span class="text-middle inset-left-10 text-italic text-black">2 days ago</span></div>
                             </div>
                         </article>
                     </div>
                 </div>
-                <div class="offset-top-50"><a class="btn btn-primary" href="#">View All News Posts</a></div>
+                <div class="offset-top-50"><a class="btn btn-primary" href="{{ route('news') }}">View All News Posts</a></div>
             </div>
         </section>
 @endsection

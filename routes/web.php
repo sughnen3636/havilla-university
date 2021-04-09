@@ -88,10 +88,12 @@ Route::group(['middleware'=>'auth:web'], function(){
 	//Admin acess rooutes
 	// Pass: @havillauniversity2021@
 	Route::group(['middleware'=> 'admin', 'prefix'=>'admin'], function(){
-		Route::get('index', 'App\Http\Controllers\AdminDashController@index')->name('admin');
+		Route::get('/', 'App\Http\Controllers\AdminDashController@index')->name('admin');
 		Route::get('add-bot', 'App\Http\Controllers\AdminDashController@addBOT')->name('add-bot');
 		Route::post('add-bot', 'App\Http\Controllers\AdminDashController@storeBOT');
 		Route::get('bots', 'App\Http\Controllers\AdminDashController@allBOTS')->name('bots');
+		Route::get('prospects', 'App\Http\Controllers\AdminDashController@allProspects')->name('prospects');
+		Route::get('download-zip/{id}', 'App\Http\Controllers\AdminDashController@downloadZip')->name('download-zip');
 	});
 });
 

@@ -18,7 +18,7 @@
                 <div class="range range-30 range-xs-center">
                     <div class="cell-sm-4 text-sm-left">
                         <div class="inset-sm-right-30"><img class="img-responsive reveal-inline-block" src="{{ asset('assets/images/staff/'.$bot->img) }}" width="340" height="340" alt="">
-                            <div class="offset-top-15 offset-sm-top-30"><a class="btn btn-primary btn-block" style="max-width: 340px; margin-left:auto; margin-right:auto">{{ $bot->name }}</a>
+                            <div class="offset-top-15 offset-sm-top-30"><a class="btn btn-primary btn-block" id="bot-name" style="max-width: 340px; margin-left:auto; margin-right:auto">{{ $bot->name }}</a>
                                 <p class="offset-top-10" style="text-align: center !important; font-weight: bold;">{{ $bot->role }}</p>
                             </div>
                         </div>

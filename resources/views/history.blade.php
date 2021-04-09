@@ -41,7 +41,7 @@
                         </p><br>
 
                         <div>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15870.364126788958!2d8.678512471825078!3d6.050707268137205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x105c68f2bf93d6ab%3A0xe703861970bde1bb!2sNde!5e0!3m2!1sen!2sng!4v1617610367917!5m2!1sen!2sng" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1015703.3041144932!2d8.126964499828645!3d6.050707268137224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x105c68f2bf93d6ab%3A0xe703861970bde1bb!2sNde!5e0!3m2!1sen!2sng!4v1617973986530!5m2!1sen!2sng" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                         </div>
                     </div>
                 </div>

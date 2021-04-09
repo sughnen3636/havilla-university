@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\BOT;
+use App\Models\User;
 
 class AdminDashController extends Controller
 {
@@ -52,5 +53,26 @@ class AdminDashController extends Controller
     	$title = 'All Board of Trustees Members';
     	$bots = BOT::all();
     	return view('dash.admin.bots', compact('title','bots'));
+    }
+
+    public function allProspects()
+    {
+        $title = 'Prospective Students';
+        $prospects = User::where('role', 'prospect')->get();
+
+        return view('dash.admin.prospects', compact('title','prospects'));
+    }
+
+    public function downloadZip($id)
+    {
+        $user = User::find($id);
+        $file = public_path(). "/assets/documents/".$user->doc_name;
+        $filename = $user->f_name.'_'.$user->l_name.'.zip';
+
+        $headers = array(
+                  'Content-Type: application/zip',
+                );
+
+        return response()->download($file, $filename, $headers);
     }
 }

@@ -23,51 +23,47 @@
                                 <article class="post-news"><a href="#"><img class="img-responsive" src="{{ asset('assets/images/Dept/HR.jpg')}}" width="370" height="240" alt=""></a>
                                     <div class="post-news-body">
                                         <h6><a href="#">Havilla University partners with University of Calabar to develop strategic plans for approved courses.</a></h6>
-                                        <div class="offset-top-20">
+                                        {{-- <div class="offset-top-20">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                                 quis nostrud exercitation.</p>
+                                        </div> --}}
+                                        <div class="post-news-meta offset-top-20">
+                                            {{-- <span class="icon novi-icon icon-xs mdi mdi-calendar-clock text-middle text-madison"></span>
+                                            <span class="text-middle inset-left-10 text-italic text-black">2 days ago</span> --}}
                                         </div>
-                                        <div class="post-news-meta offset-top-20"><span class="icon novi-icon icon-xs mdi mdi-calendar-clock text-middle text-madison"></span><span class="text-middle inset-left-10 text-italic text-black">2 days ago</span></div>
                                     </div>
                                 </article>
                             </div>
                             <div class="cell-sm-6">
-                                <article class="post-news"><a href="#"><img class="img-responsive" src="{{ asset('assets/images/Dept/Entrepreneurship.jpg')}}" width="370" height="240" alt=""></a>
+                                <article class="post-news"><a href="#"><img class="img-responsive" src="{{ asset('assets/images/unical.jpg') }}" width="370" height="240" alt=""></a>
                                     <div class="post-news-body">
-                                        <h6><a href="#">The PIC Chairman, Prof. Florence Obi receives Havilla University license from NUC on 8th April, 2021!</a></h6>
-                                        <div class="offset-top-20">
+                                        <h6><a href="#">The National Universities Commission has appointed University of Calabar as a mentoring University for Havilla University</a></h6>
+                                        {{-- <div class="offset-top-20">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                                 quis nostrud exercitation.</p>
+                                        </div> --}}
+                                        <div class="post-news-meta offset-top-20">
+                                            {{-- <span class="icon novi-icon icon-xs mdi mdi-calendar-clock text-middle text-madison"></span>
+                                            <span class="text-middle inset-left-10 text-italic text-black">2 days ago</span> --}}
                                         </div>
-                                        <div class="post-news-meta offset-top-20"><span class="icon novi-icon icon-xs mdi mdi-calendar-clock text-middle text-madison"></span><span class="text-middle inset-left-10 text-italic text-black">2 days ago</span></div>
                                     </div>
                                 </article>
                             </div>
                             <div class="cell-sm-6">
-                                <article class="post-news"><a href="#"><img class="img-responsive" src="{{ asset('assets/images/Dept/Accounting.jpg')}}" width="370" height="240" alt=""></a>
+                                <article class="post-news"><a href="#"><img class="img-responsive" src="{{ asset('assets/images/nuc.jpg')}}" style="height: 240px!important; width: 370px !important;"></a>
                                     <div class="post-news-body">
-                                        <h6><a href="#">The National Universities Commission has appointed University of Calabar as a mentoring University...</a></h6>
-                                        <div class="offset-top-20">
+                                        <h6><a href="#">Hon. Jones Tangban receives the license for Havilla University from NUC on April  8th 2021, at Abuja</a></h6>
+                                        {{-- <div class="offset-top-20">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                                 quis nostrud exercitation.</p>
+                                        </div> --}}
+                                        <div class="post-news-meta offset-top-20">
+                                            {{-- <span class="icon novi-icon icon-xs mdi mdi-calendar-clock text-middle text-madison"></span>
+                                            <span class="text-middle inset-left-10 text-italic text-black">2 days ago</span> --}}
                                         </div>
-                                        <div class="post-news-meta offset-top-20"><span class="icon novi-icon icon-xs mdi mdi-calendar-clock text-middle text-madison"></span><span class="text-middle inset-left-10 text-italic text-black">2 days ago</span></div>
-                                    </div>
-                                </article>
-                            </div>
-                            <div class="cell-sm-6">
-                                <article class="post-news"><a href="#"><img class="img-responsive" src="{{ asset('assets/images/nuc.jpeg')}}" style="height: 240px!important; width: 370px !important;"></a>
-                                    <div class="post-news-body">
-                                        <h6><a href="#">Hon. Jones Tangban receives the license for Havilla University from NUC today April  8th 2021, at Abuja</a></h6>
-                                        <div class="offset-top-20">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                                quis nostrud exercitation.</p>
-                                        </div>
-                                        <div class="post-news-meta offset-top-20"><span class="icon novi-icon icon-xs mdi mdi-calendar-clock text-middle text-madison"></span><span class="text-middle inset-left-10 text-italic text-black">2 days ago</span></div>
                                     </div>
                                 </article>
                             </div>
@@ -126,7 +122,7 @@
                                     <div class="cell-6"><a class="thumbnail-default" href="images/portfolio/gallery-15-1200x800-original.jpg" data-lightgallery="item"><img src="images/portfolio/gallery-15-320x320.jpg" alt="" width="320" height="320"><span class="icon novi-icon fa-search-plus"></span></a></div> --}}
                                 </div>
                             </div>
-                            <div class="aside-item">
+                            {{-- <div class="aside-item">
                                 <h6 class="text-bold">Categories</h6>
                                 <div class="text-subline"></div>
                                 <div class="offset-top-20">
@@ -136,7 +132,7 @@
                                         <li><a href="#">Global Education</a></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> --}}
                         </aside>
                     </div>
                 </div>

@@ -7,10 +7,10 @@
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
   <title>{{ $title??'HUNI | Admin Dashboard' }}</title>
-  <link rel="stylesheet" href="{{ asset('assets/dash/bundles/datatables/datatables.min.css') }}">
-  <link rel="stylesheet" href="{{ asset('assets/dash/bundles/datatables/DataTables-1.10.16/css/dataTables.bootstrap4.min.css') }}">
   <!-- General CSS Files -->
   <link rel="stylesheet" href="{{ asset('assets/dash/css/app.min.css')}}">
+  <link rel="stylesheet" href="{{ asset('assets/dash/bundles/datatables/datatables.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('assets/dash/bundles/datatables/DataTables-1.10.16/css/dataTables.bootstrap4.min.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/dash/bundles/bootstrap-social/bootstrap-social.css')}}">
   <link rel="stylesheet" href="{{ asset('assets/dash/bundles/summernote/summernote-bs4.css')}}">
   <!-- Template CSS -->
@@ -60,7 +60,7 @@
               </div>
               <div class="dropdown-list-content dropdown-list-message">
                 <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar
-											text-white"> <img alt="image" src="assets/img/users/user-1.png" class="rounded-circle">
+											text-white"> <img alt="image" src="{{ asset('assets/images/Havilla/h_logo.jpeg')}}" class="rounded-circle">
                   </span> <span class="dropdown-item-desc"> <span class="message-user">John
                       Deo</span>
                     <span class="time messege-text">Please check your mail !!</span>
@@ -108,7 +108,7 @@
               </div>
             </div>
           </li>
-          <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown"
+          {{-- <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown"
               class="nav-link notification-toggle nav-link-lg"><i data-feather="bell" class="bell"></i>
             </a>
             <div class="dropdown-menu dropdown-list dropdown-menu-right pullDown">
@@ -156,12 +156,12 @@
                 <a href="#">View All <i class="fas fa-chevron-right"></i></a>
               </div>
             </div>
-          </li>
+          </li> --}}
           <li class="dropdown"><a href="#" data-toggle="dropdown"
-              class="nav-link dropdown-toggle nav-link-lg nav-link-user"> <img alt="image" src="assets/img/user.png"
+              class="nav-link dropdown-toggle nav-link-lg nav-link-user"> <img alt="image" src="{{ asset('assets/images/Havilla/h_logo.jpeg')}}"
                 class="user-img-radious-style"> <span class="d-sm-none d-lg-inline-block"></span></a>
             <div class="dropdown-menu dropdown-menu-right pullDown">
-              <div class="dropdown-title">Hello Sarah Smith</div>
+              <div class="dropdown-title">Hello Admin</div>
               <a href="profile.html" class="dropdown-item has-icon"> <i class="far
 										fa-user"></i> Profile
               </a> <a href="timeline.html" class="dropdown-item has-icon"> <i class="fas fa-bolt"></i>
@@ -180,21 +180,21 @@
       <div class="main-sidebar sidebar-style-2">
         <aside id="sidebar-wrapper">
           <div class="sidebar-brand">
-            <a href="index.html"> <img alt="image" src="assets/img/logo.png" class="header-logo" /> <span
-                class="logo-name">Otika</span>
+            <a href="/"> <img src="{{ asset('assets/images/Havilla/h_logo.jpeg')}}" alt="" width="191" height="120"> <span
+                class="logo-name"></span>
             </a>
           </div>
-          <ul class="sidebar-menu">
-            <li class="menu-header">Main</li>
+          <ul class="sidebar-menu" style="margin-top: 50px;">
+            {{-- <li class="menu-header">Main</li> --}}
             <li class="dropdown active">
-              <a href="index.html" class="nav-link"><i data-feather="monitor"></i><span>Dashboard</span></a>
+              <a href="{{ route('admin') }}" class="nav-link"><i data-feather="monitor"></i><span>Dashboard</span></a>
             </li>
             <li class="dropdown">
               <a href="#" class="menu-toggle nav-link has-dropdown"><i
                   class="fas fa-users"></i><span>Students</span></a>
               <ul class="dropdown-menu">
-                <li><a class="nav-link" href="widget-chart.html">Accepted</a></li>
-                <li><a class="nav-link" href="widget-data.html">Prospects</a></li>
+                {{-- <li><a class="nav-link" href="widget-chart.html">Accepted</a></li> --}}
+                <li><a class="nav-link" href="{{ route('prospects') }}">Prospects</a></li>
               </ul>
             </li>
             <li class="dropdown">
@@ -213,7 +213,7 @@
                 <li><a class="nav-link" href="email-read.html">read</a></li>
               </ul>
             </li>
-            <li class="menu-header">UI Elements</li>
+            {{-- <li class="menu-header">UI Elements</li>
             <li class="dropdown">
               <a href="#" class="menu-toggle nav-link has-dropdown"><i data-feather="copy"></i><span>Basic
                   Components</span></a>
@@ -381,7 +381,7 @@
                   </ul>
                 </li>
               </ul>
-            </li>
+            </li> --}}
           </ul>
         </aside>
       </div>
@@ -406,6 +406,8 @@
   <script src="{{ asset('assets/dash/bundles/jquery-ui/jquery-ui.min.js')}}"></script>
   <!-- JS Libraies -->
   <script src="{{ asset('assets/dash/bundles/summernote/summernote-bs4.js')}}"></script>
+  <!-- Page Specific JS File -->
+  <script src="{{ asset('assets/dash/js/page/datatables.js') }}"></script>
   <!-- Page Specific JS File -->
   <!-- Template JS File -->
   <script src="{{ asset('assets/dash/js/scripts.js')}}"></script>

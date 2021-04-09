@@ -15,9 +15,6 @@
                       <table class="table table-striped" id="table-1">
                         <thead>
                           <tr>
-                            <th class="text-center">
-                              #
-                            </th>
                             <th>Name</th>
                             <th>Role</th>
                             <th>Photo</th>
@@ -27,15 +24,12 @@
                         <tbody>
                           @foreach($bots as $bot)
                             <tr>
-                              <td>
-                                {{ $bot->id }}
-                              </td>
-                              <td>{{ $bot->name }}</td>
+                              <td>{{ ucwords($bot->name) }}</td>
                               <td>{{ $bot->role }}</td>
                               <td>
                                 <img alt="image" src="{{ asset('assets/images/staff/'.$bot->img) }}" width="35">
                               </td>
-                              <td><a href="#" class="btn btn-primary">Detail</a></td>
+                              <td><a href="#" class="btn btn-primary"><span class="fa fa-edit"></span></a></td>
                             </tr>
                           @endforeach
                         </tbody>
