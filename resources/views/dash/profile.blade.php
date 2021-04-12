@@ -195,7 +195,7 @@
             {{-- <li class="dropdown">
               <a href="{{ route('dashboard') }}" class="nav-link"><i data-feather="user"></i><span>Applicant Profile</span></a>
             </li> --}}
-            <img src="{{ asset('assets/images/faculty-side.jpg') }}">
+            <img src="{{ asset('assets/images/profile-side.jpg') }}">
             {{-- <li class="dropdown">
               <a href="#" class="menu-toggle nav-link has-dropdown"><i
                   data-feather="briefcase"></i><span>Widgets</span></a>

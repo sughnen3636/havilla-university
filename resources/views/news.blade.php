@@ -20,9 +20,9 @@
                     <div class="cell-md-8">
                         <div class="range range-30 text-sm-left range-xs-center">
                             <div class="cell-sm-6">
-                                <article class="post-news"><a href="#"><img class="img-responsive" src="{{ asset('assets/images/Dept/HR.jpg')}}" width="370" height="240" alt=""></a>
+                                <article class="post-news"><a><img class="img-responsive" src="{{ asset('assets/images/Dept/HR.jpg')}}" width="370" height="240" alt=""></a>
                                     <div class="post-news-body">
-                                        <h6><a href="#">Havilla University partners with University of Calabar to develop strategic plans for approved courses.</a></h6>
+                                        <h6><a>Havilla University partners with University of Calabar to develop strategic plans for approved courses.</a></h6>
                                         {{-- <div class="offset-top-20">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -36,9 +36,9 @@
                                 </article>
                             </div>
                             <div class="cell-sm-6">
-                                <article class="post-news"><a href="#"><img class="img-responsive" src="{{ asset('assets/images/unical.jpg') }}" width="370" height="240" alt=""></a>
+                                <article class="post-news"><a><img class="img-responsive" src="{{ asset('assets/images/unical.jpg') }}" width="370" height="240" alt=""></a>
                                     <div class="post-news-body">
-                                        <h6><a href="#">The National Universities Commission has appointed University of Calabar as a mentoring University for Havilla University</a></h6>
+                                        <h6><a>The National Universities Commission has appointed University of Calabar as a mentoring University for Havilla University</a></h6>
                                         {{-- <div class="offset-top-20">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -52,9 +52,9 @@
                                 </article>
                             </div>
                             <div class="cell-sm-6">
-                                <article class="post-news"><a href="#"><img class="img-responsive" src="{{ asset('assets/images/nuc.jpg')}}" style="height: 240px!important; width: 370px !important;"></a>
+                                <article class="post-news"><a><img class="img-responsive" src="{{ asset('assets/images/cert.jpeg')}}" style="height: 240px!important; width: 370px !important;"></a>
                                     <div class="post-news-body">
-                                        <h6><a href="#">Hon. Jones Tangban receives the license for Havilla University from NUC on April  8th 2021, at Abuja</a></h6>
+                                        <h6><a>Hon. Jones Tangban receives the license for Havilla University from NUC on April  8th 2021, at Abuja</a></h6>
                                         {{-- <div class="offset-top-20">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

@@ -51,6 +51,11 @@ Route::get('our-faculties', function () {
     return view('courses', compact('title'));
 })->name('courses');
 
+Route::get('chairman-bot', function () {
+	$title = 'Prof. Florence Banku Obi';
+    return view('vc', compact('title'));
+})->name('chairman');
+
 Route::get('news', 'App\Http\Controllers\PostController@index')->name('news');
 
 Route::post('contact-us', 'App\Http\Controllers\PostController@sendContactFrm')->name('contact');

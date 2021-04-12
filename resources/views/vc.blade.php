@@ -3,7 +3,7 @@
         <section class="section breadcrumb-modern context-dark parallax-container" data-parallax-img="images/parallax-03.jpg">
             <div class="parallax-content section-30 section-sm-70">
                 <div class="shell">
-                    <h2 class="veil reveal-sm-block">Board of Trustees Member Profile</h2>
+                    <h2 class="veil reveal-sm-block">Chairman Board of Trustees</h2>
                     <div class="offset-sm-top-35">
                         <!-- <ul class="list-inline list-inline-lg list-inline-dashed p">
                             <li><a href="index.html">Home</a></li>
@@ -17,9 +17,9 @@
             <div class="shell">
                 <div class="range range-30 range-xs-center">
                     <div class="cell-sm-4 text-sm-left">
-                        <div class="inset-sm-right-30"><img class="img-responsive reveal-inline-block" src="{{ asset('assets/images/staff/'.$bot->img) }}" width="340" height="340" alt="">
-                            <div class="offset-top-15 offset-sm-top-30"><a class="btn btn-primary btn-block" id="bot-name" style="max-width: 340px; margin-left:auto; margin-right:auto">{{ $bot->name }}</a>
-                                <p class="offset-top-10" style="text-align: center !important; font-weight: bold;">{{ $bot->role }}</p>
+                        <div class="inset-sm-right-30"><img class="img-responsive reveal-inline-block" src="{{ asset('assets/images/staff/vc.jpg') }}" width="340" height="340" alt="">
+                            <div class="offset-top-15 offset-sm-top-30"><a class="btn btn-primary btn-block" id="bot-name" style="max-width: 340px; margin-left:auto; margin-right:auto">Prof. Florence Banku Obi</a>
+                                <p class="offset-top-10" style="text-align: center !important; font-weight: bold;">Chairman</p>
                             </div>
                         </div>
                     </div>
@@ -36,7 +36,16 @@
                             <div class="text-subline"></div>
                         </div> --}}
                         <div class="offset-top-20">
-                            <p>{{ $bot->bio }}</p>
+                            <p>                     Professor Florence Banku Obi hails from Boki local government area in Cross River State. She began her academic career as an Assistant Lecturer at the Institute of Education, University of Calabar in March 1990.  She is the 11th substantive vice-chancellor of University of Calabar and the first female vice-chancellor since the inception of the institution.<br><br>
+                            In 1990, Obi started her academic career as an assistant lecturer at the Institute of Education, University of Calabar. In 1992, she won a six-month postgraduate scholarship to Jordan-Hill College of Education, under the World University Service (WUS), World-Wide Fund for Nature (WWF) and the Nigerian Conservation Foundation (NCF) during an interview for staff of the Institute of Education.
+
+                            After the scholarship offer, she was placed in charge of the WWF/NCF funded schools and community education programmes. In 2007, a became professor of special needs education.<br>     
+                                                    Professor Florence Banku Obi served as the Chairman Planning and Implementation Committee Havilla University for the past five years and now as the Chairman Board of Trustees, Havilla University, Nde, Ikom.   
+                            She had also served as the Chairperson of University of Calabar International Demonstration School (formerly called University of Calabar International Secondary School) where she left lasting physical legacies to her credit.
+
+                            Following her credibility, integrity and commitment to service, she was voted as the Deputy Vice Chancellor (Academics) by the University Senate. 
+
+                            As DVC Academics, she was also a member of the University Governing Council, where she brought her wealth of experience to bear in the growth and development of the University.</p>
                         </div>
                         {{-- <div class="offset-top-30 offset-sm-top-30">
                             <h6 class="text-bold">Reach Out</h6>

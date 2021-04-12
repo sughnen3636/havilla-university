@@ -550,7 +550,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-4 isotope-item">
                         <article class="post-news"><a href="#"><img class="img-responsive" src="{{ asset('assets/images/Dept/HR.jpg')}}" alt="" width="370" height="240"></a>
                             <div class="post-news-body">
-                                <h6><a href="#">Havilla University partners with University of Calabar to develop strategic plans for approved courses.</a></h6>
+                                <h6><a>Havilla University partners with University of Calabar to develop strategic plans for approved courses.</a></h6>
                                 {{-- <div class="offset-top-20">
                                     <p>Securing scholarships can be stressful, but parents and counselors can serve as a resource.</p>
                                 </div> --}}
@@ -562,9 +562,9 @@
                         </article>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 isotope-item">
-                        <article class="post-news"><a href="#"><img class="img-responsive" src="{{ asset('assets/images/nuc.jpg')}}" alt="" width="370" height="240"></a>
+                        <article class="post-news"><a><img class="img-responsive" src="{{ asset('assets/images/cert.jpeg')}}" alt="" width="370" height="240"></a>
                             <div class="post-news-body">
-                                <h6><a href="#">Hon. Jones Tangban receives the license for Havilla University from NUC on April  8th 2021, at Abuja</a></h6>
+                                <h6><a>Hon. Jones Tangban receives the license for Havilla University from NUC on April  8th 2021, at Abuja</a></h6>
                                 {{-- <div class="offset-top-20">
                                     <p>Summer preparatory programs offered through schools allow students to..</p>
                                 </div> --}}
@@ -576,9 +576,9 @@
                         </article>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 isotope-item">
-                        <article class="post-news"><a href="#"><img class="" src="{{ asset('assets/images/unical.jpg') }}" alt="" width="370" height="240"></a>
+                        <article class="post-news"><a><img class="" src="{{ asset('assets/images/unical.jpg') }}" alt="" width="370" height="240"></a>
                             <div class="post-news-body">
-                                <h6><a href="#">The National Universities Commission has appointed University of Calabar as a mentoring University for Havilla University</a></h6>
+                                <h6><a>The National Universities Commission has appointed University of Calabar as a mentoring University for Havilla University</a></h6>
                                 {{-- <div class="offset-top-20">
                                     <p>International students increasingly want to come to the United States for college or graduate school.</p>
                                 </div> --}}
