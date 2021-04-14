@@ -84,9 +84,9 @@
                                           </tr>
                                           <tr>
                                             <td>Accomodation</td>
-                                            <td>&#8358;25,000.00</td>
+                                            <td>&#8358;29,500.00</td>
                                             <td class="bordered">Accomodation</td>
-                                            <td>&#8358;25,000.00</td>
+                                            <td>&#8358;29,500.00</td>
                                           </tr>
                                           <tr>
                                             <td>Medical</td>
@@ -144,12 +144,12 @@
                                           </tr>
                                           <tr>
                                             <td colspan="1" class="sub-total">Sub-total</td>
-                                            <td colspan="1" class="sub-total">&#8358;206,000.00</td>
+                                            <td colspan="1" class="sub-total">&#8358;210,500.00</td>
                                             <td colspan="1" class="sub-total bordered">Sub-total</td>
-                                            <td colspan="1" class="sub-total">&#8358;185,000.00</td>
+                                            <td colspan="1" class="sub-total">&#8358;189,500.00</td>
                                           </tr>
                                           <tr>
-                                            <td colspan="4" class="total-fig">Total Per Session : &#8358;391,000.00</td>
+                                            <td colspan="4" class="total-fig">Total Per Session : &#8358;400,000.00</td>
                                           </tr>
                                       </tbody>
                                     </table>
