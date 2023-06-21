@@ -1,4 +1,4 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/havikkzl/public_html/
+    - export DEPLOYPATH=/home/tranisan/app.gstacademy.com.ng
     - /bin/cp -R * $DEPLOYPATH
